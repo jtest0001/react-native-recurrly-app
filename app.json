@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "reccurly-app",
-    "slug": "reccurly-app",
+    "name": "recurrly-app",
+    "slug": "recurrly-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
