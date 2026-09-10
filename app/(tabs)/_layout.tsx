@@ -30,6 +30,7 @@ export default function TabsLayout() {
         tabBarShowLabel: false,
         tabBarStyle: {
           position: "absolute",
+          paddingBottom: 0,
           bottom: Math.max(insets.bottom, tabBar.horizontalInset),
           height: tabBar.height,
           marginHorizontal: tabBar.horizontalInset,
@@ -38,13 +39,11 @@ export default function TabsLayout() {
           borderTopWidth: 0,
           elevation: 0,
         },
-        tabBarItemStyle: {
-          paddingVertical: 7,
-        },
         tabBarIconStyle: {
           width: tabBar.iconFrame,
           height: tabBar.iconFrame,
-          alignItems: "center",
+          marginTop: "auto",
+          marginBottom: "auto",
         },
       }}
     >
